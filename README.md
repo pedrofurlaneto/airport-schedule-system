@@ -38,8 +38,32 @@ Input the flight number:
 >:
 ```
 
-## Example Interaction
-- Consulting Flights: Users can view flights based on flight number, origin, or destination. The terminal displays flight details including the number of available tickets.
-- Scheduling Flights: Users can schedule a flight by entering a valid flight number. If there are available tickets for the selected flight, the program confirms the successful scheduling; otherwise, it notifies the user that the flight is full.
+## How to Compile and Run
+To compile the program using the provided Makefile:
+
+### Clone the repository:
+```
+git clone https://github.com/pedrofurlaneto/airport-schedule-system.git
+cd airport-schedule-system
+```
+
+### Compile the program:
+```
+make
+```
+
+This command will compile the source code (main.c) and create an executable named airport_system.
+
+### Run the executable:
+```
+./airport_system
+```
+Follow the on-screen instructions to interact with the program.
+
+### Cleaning up:
+```
+make clean
+```
+This command will remove the compiled object files and the executable.
 
 :)
